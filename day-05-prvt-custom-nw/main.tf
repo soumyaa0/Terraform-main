@@ -118,7 +118,7 @@ resource "aws_instance" "pub-server" {
 
     subnet_id = aws_subnet.dev_sub01.id
     associate_public_ip_address = true
-    security_groups = [ aws_security_group.allow_traffic.id ]
+    vpc_security_group_ids= [ aws_security_group.allow_traffic.id ]
 
     tags = {
         Name="pub_01"
@@ -129,7 +129,7 @@ resource "aws_instance" "prvt-server" {
     ami = "ami-0aebec83a182ea7ea"
     instance_type = "t3.medium"
     key_name = "projectK"
-    security_groups = [ aws_security_group.allow_traffic.id ]
+    vpc_security_group_ids= [ aws_security_group.allow_traffic.id ]
     subnet_id = aws_subnet.dev_sub02.id
 
     tags = {

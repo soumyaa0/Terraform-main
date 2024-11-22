@@ -1,5 +1,4 @@
 resource "aws_s3_bucket" "name" {
-    bucket ="terraformmm"
+    bucket = "shhxgasbccjscvaasc"
   
 }
-
