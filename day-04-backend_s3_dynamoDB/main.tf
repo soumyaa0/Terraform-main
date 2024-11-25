@@ -1,6 +1,6 @@
 #Creating s3 bucket and dynamo DB for stste backend storage and applying..!!!
 resource "aws_s3_bucket" "name" {
-    bucket = "awsdevopsss"
+    bucket = var.bucket_name
   
 }
 resource "aws_dynamodb_table" "dynamodb-state-lock" {

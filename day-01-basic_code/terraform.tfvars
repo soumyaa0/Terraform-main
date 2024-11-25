@@ -1,4 +1,4 @@
-ami= "ami-012967cc5a8c9f891"
+ami= "ami-0453ec754f44f9a4a"
 type= "t2.micro"
 key= "3tier-project"
 az= "us-east-1a"
