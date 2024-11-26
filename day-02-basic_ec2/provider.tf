@@ -7,6 +7,6 @@
 #   }
 # }
 
-# provider "aws" {
-#   # Configuration options
-# }
+provider "aws" {
+  
+}
