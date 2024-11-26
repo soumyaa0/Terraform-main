@@ -6,7 +6,7 @@
  variable "type" {
    description = "inserting value for instance type"
    type = string
-   default = "t2.medium"
+   default = ""
  }
   variable "key" {
    description = "inserting value for key"
