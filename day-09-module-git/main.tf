@@ -1,6 +1,6 @@
 module "ec2-git" {
     source = "github.com/soumyaa0/Terraform-main/day-02-basic_ec2"
-    ami= var.ami
-    instance_type = var.instance_type
-    key_name = var.key_name
+    ami= "ami-0453ec754f44f9a4a"
+    instance_type = "t2.micro"
+    key_name = "devops"
 }
